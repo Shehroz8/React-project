@@ -1,0 +1,52 @@
+.App{
+  width: 400px;
+  height: 300px;
+  background: rgb(169, 113, 41);
+  margin: 0 auto;
+  border-radius: 5px;
+  box-shadow: 2px 17px 9px rgba(0,0,0, .6);
+}
+
+p{
+  text-align: center;
+  font-size: 30px;
+  color: aliceblue;
+  font-weight: bold;
+  text-shadow: 1px 5px 17px rgba(0,0,0, .6);
+}
+
+button{
+  padding: 8px 16px;
+  margin: 0 10px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.success{
+  background: #ab2b2b;
+}
+
+.success:focus{
+  border-radius: 10px 0px 10px 0px;
+}
+
+.secondary{
+  border: none;
+  outline: none;
+  background: rgba(30, 30, 180, 0.95);
+  transition: .5s ease;
+}
+
+.secondary:focus{
+  border-radius: 10px 0px 10px 0px;
+}
+
+.danger{
+  background: forestgreen;
+}
+
+.danger:focus{
+  border-radius: 10px 0px 10px 0px;
+}
